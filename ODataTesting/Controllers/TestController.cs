@@ -18,7 +18,6 @@ namespace ODataTesting.Controllers
         /// <summary>
         /// Returns a List of Test Models
         /// </summary>
-        /// <param name="TestId">The Client Identifier</param>
         /// <returns>List of TestModels</returns>
         /// <remarks>The Get Method will return a list of All TestModels</remarks>
         /// <response code="200">Ok- Test Models Found</response>
@@ -34,7 +33,7 @@ namespace ODataTesting.Controllers
 
             TestModel testModel = new TestModel()
             {
-                TestId = "TestId1",
+                TestModelId = "TestId1",
                 TestBool = true,
                 TestDateTime = DateTime.Now,
                 TestDouble = 4936.56,
@@ -46,7 +45,7 @@ namespace ODataTesting.Controllers
 
             testModel = new TestModel()
             {
-                TestId = "TestId2",
+                TestModelId = "TestId2",
                 TestBool = true,
                 TestDateTime = DateTime.UtcNow,
                 TestDouble = 9873.12,

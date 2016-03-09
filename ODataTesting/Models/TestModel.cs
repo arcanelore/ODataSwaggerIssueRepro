@@ -13,7 +13,7 @@ namespace ODataTesting.Models
     {
         /// <summary>Test Model Id</summary>
         [Key]
-        public string TestId { get; set; }
+        public string TestModelId { get; set; }
 
         /// <summary>String Value</summary>
         public string TestString { get; set; }

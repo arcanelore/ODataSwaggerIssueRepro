@@ -37,7 +37,7 @@ namespace ODataTesting
             // Base V1 OData Route
             var odataRoute = config.MapODataServiceRoute(
                 routeName: "ODataRouteV1",
-                routePrefix: "odata/v1/{testid}",
+                routePrefix: "odata/v1/{TestId}",
                 model: GetModel());
         }
 
